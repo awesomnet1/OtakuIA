@@ -18,11 +18,13 @@ Si eres un amante del mundo del ánime sabrás que muchas veces encontrar cierta
 
 ##Guía de instalación:
 git clone https://github.com/awesomnet1/OtakuIA.git
-Para correr el código primero debes instalar Groq. Abre una terminal y escribe:\n
+Para correr el código primero debes instalar Groq. Abre una terminal y escribe:
+
 pip install Groq
 
 ## Modo De Uso
-Para obtener la información del anime deseado solo debes cambiar la siguiente línea de código: \n
+Para obtener la información del anime deseado solo debes cambiar la siguiente línea de código:
+
 anime = get_anime("Death Note") "Death Note" puede ser cambiado por cualquier parámetro
 
 La Función get_anime() Solo acepta datos del tipo String como parámetro.
