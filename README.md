@@ -16,7 +16,7 @@ Horario De emisión:
 ## ¿Que mejora en mi dia a dia?
 Si eres un amante del mundo del ánime sabrás que muchas veces encontrar cierta información especifica, puede llegar a ser algo complicado. Por esa misma razón, OtakuIA intenta solucionar dichos problemas y ayudarte a ahorrar tiempo en muchos aspectos. Esta herramienta está orientada a ayudarte a decidir si un anime es para ti brindandote toda la información necesaria para decidir si ese anime nuevo o viejo será para ti.
 
-##Guía de instalación:
+## Guía de instalación:
 git clone https://github.com/awesomnet1/OtakuIA.git
 Para correr el código primero debes instalar Groq. Abre una terminal y escribe:
 
