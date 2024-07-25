@@ -66,7 +66,8 @@ resultado = re.sub(r'\*{1,2}', '', chat_completion.choices[0].message.content) #
 
 with open("resultadoIA.txt","w+", encoding="UTF-8") as archivo:
     archivo.writelines(resultado)
-    
+
+# Mensaje super secreto de desarrolador.
 
 
 
