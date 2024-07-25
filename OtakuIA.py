@@ -35,7 +35,6 @@ chat_completion = client.chat.completions.create(
             6) evitar saltos de linea dobles e innecesarios
             7) (si está finalizado no añadir y si lo está usar el horario para GMT-3 ARGENTINA y dar la siguiente aclaración: los horarios estan sujetos a errores y pueden ser imprecisos)
             8) si no se especifica una temporada en particular realizar lo pedido usando la primera temporada.
-            9) Si el anime que se pide no existe en el json
                 {anime}
 Nombre Del Anime:
 Género:
@@ -49,9 +48,6 @@ Horario De emisión:
             
             """
         },
-        client.chat.completions.create(
-            messages
-        )
     ],
     model="gemma-7b-it", # Recomendación: No usar modelos de lenguajes grandes ya que el output suele ser de mala calidad.
     #Recomiendo MIxtral y Gemma 7b
